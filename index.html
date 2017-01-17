@@ -1,43 +1,8 @@
-<html><head>
-  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
-<script>
-    function launchApplication(jnlpfile) {
-        dtjava.launch(            {
-                url : 'NewPhotos_v2.jnlp'
-            },
-            {
-                javafx : '8.0+'
-            },
-            {}
-        );
-        return false;
-    }
-</script>
-
-<script>
-    function javafxEmbedNewPhotos_v2_id() {
-        dtjava.embed(
-            {
-                id : 'NewPhotos_v2_id',
-                url : 'NewPhotos_v2.jnlp',
-                placeholder : 'javafx-app-placeholder',
-                width : '400',
-                height : '270'
-            },
-            {
-                javafx : '8.0+'
-            },
-            {}
-        );
-    }
-    <!-- Embed FX application into web page once page is loaded -->
-    dtjava.addOnloadCallback(javafxEmbedNewPhotos_v2_id);
-</script>
-
-</head><body>
-<h2>Test page for <b>NewPhotos_v2</b></h2>
-  <b>Webstart:</b> <a href='NewPhotos_v2.jnlp' onclick="return launchApplication('NewPhotos_v2.jnlp');">click to launch this app as webstart</a><br><hr><br>
-
-  <!-- Applet will be inserted here -->
-  <div id='javafx-app-placeholder'></div>
-</body></html>
+<!DOCTYPE html>
+<html>
+<title>New photos</title>
+<body>
+<h1>Find out what new photos uploaded</h1>
+<p>I'm hosted with GitHub Pages.</p>
+</body>
+</html>
